@@ -4,7 +4,7 @@ import cv2 as cv
 #cap = cv.VideoCapture(0)
 
 #This how we need to read the external video
-cap = cv.VideoCapture("play.mp4")
+cap = cv.VideoCapture("Play.mp4")
 
 #Using pc ip camera showing the output using the  imshow()
 while(True):
