@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9c360d2-f500-4288-8246-87881a399c89" name="Default Changelist" comment="Save captured video">
-      <change afterPath="$PROJECT_DIR$/08-FaceDetectionUsingHaarCascadeClassifier.py" afterDir="false" />
+    <list default="true" id="a9c360d2-f500-4288-8246-87881a399c89" name="Default Changelist" comment="Face detecting using images">
+      <change afterPath="$PROJECT_DIR$/09-FaceDetectionInVideo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,29 +35,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../FaceMaskDetector-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.08-FaceDetectionUsingHaarCascadeClassifier">
-    <configuration name="04-ReadVideo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Udemy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-ReadVideo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.09-FaceDetectionInVideo">
     <configuration name="05-CovertVideoToGray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Udemy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,6 +124,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="09-FaceDetectionInVideo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Udemy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09-FaceDetectionInVideo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Udemy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.09-FaceDetectionInVideo" />
         <item itemvalue="Python.08-FaceDetectionUsingHaarCascadeClassifier" />
         <item itemvalue="Python.07-SaveCapturedVideo" />
         <item itemvalue="Python.06-Video-Properties" />
         <item itemvalue="Python.05-CovertVideoToGray" />
-        <item itemvalue="Python.04-ReadVideo" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +189,7 @@
       <workItem from="1605932700786" duration="1944000" />
       <workItem from="1605937761769" duration="2679000" />
       <workItem from="1605946188289" duration="2507000" />
-      <workItem from="1605952006027" duration="14604000" />
+      <workItem from="1605952006027" duration="15528000" />
     </task>
     <task id="LOCAL-00001" summary="Image read and Image show">
       <created>1605952641913</created>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605980202022</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Face detecting using images">
+      <created>1605982834213</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605982834213</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +244,8 @@
     <MESSAGE value="Video Read using ip camera &amp; external videos" />
     <MESSAGE value="Video properties and convert to the gray" />
     <MESSAGE value="Save captured video" />
-    <option name="LAST_COMMIT_MESSAGE" value="Save captured video" />
+    <MESSAGE value="Face detecting using images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Face detecting using images" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605957250015">
@@ -248,31 +256,31 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1828" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605965830134" />
-    <state width="1323" height="140" key="GridCell.Tab.0.bottom" timestamp="1605982656990">
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom" timestamp="1605983524382">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605982656990" />
-    <state width="1323" height="140" key="GridCell.Tab.0.center" timestamp="1605982656990">
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605983524382" />
+    <state width="1323" height="140" key="GridCell.Tab.0.center" timestamp="1605983524382">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605982656990" />
-    <state width="1323" height="140" key="GridCell.Tab.0.left" timestamp="1605982656990">
+    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605983524382" />
+    <state width="1323" height="140" key="GridCell.Tab.0.left" timestamp="1605983524382">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605982656990" />
-    <state width="1323" height="140" key="GridCell.Tab.0.right" timestamp="1605982656990">
+    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605983524382" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right" timestamp="1605983524382">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605982656990" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605983524382" />
     <state x="1550" y="9" key="SettingsEditor" timestamp="1605952331858">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605941490974" />
     <state x="1550" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605952331858" />
-    <state x="1641" y="84" key="Vcs.Push.Dialog.v2" timestamp="1605980212194">
+    <state x="1641" y="84" key="Vcs.Push.Dialog.v2" timestamp="1605982841360">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1641" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605980212194" />
+    <state x="1641" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605982841360" />
     <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605953553609">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -287,7 +295,8 @@
     <SUITE FILE_PATH="coverage/OpenCvTutorial$05_CovertVideoToGray.coverage" NAME="05-CovertVideoToGray Coverage Results" MODIFIED="1605958138935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCvTutorial$01_ReadImage__1_.coverage" NAME="01-ReadImage (1) Coverage Results" MODIFIED="1605953343920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCvTutorial$07_SaveCapturedVideo.coverage" NAME="07-SaveCapturedVideo Coverage Results" MODIFIED="1605967953311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/OpenCvTutorial$08_FaceDetectionUsingHaarCascadeClassifier.coverage" NAME="08-FaceDetectionUsingHaarCascadeClassifier Coverage Results" MODIFIED="1605982656971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenCvTutorial$08_FaceDetectionUsingHaarCascadeClassifier.coverage" NAME="08-FaceDetectionUsingHaarCascadeClassifier Coverage Results" MODIFIED="1605982704343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenCvTutorial$09_FaceDetectionInVideo.coverage" NAME="09-FaceDetectionInVideo Coverage Results" MODIFIED="1605983524121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Udemy$main.coverage" NAME="main Coverage Results" MODIFIED="1605933532898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCvTutorial$04_ReadVideo.coverage" NAME="04-ReadVideo Coverage Results" MODIFIED="1605957547100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
