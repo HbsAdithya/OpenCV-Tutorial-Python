@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9c360d2-f500-4288-8246-87881a399c89" name="Default Changelist" comment="Image read and Image show">
-      <change afterPath="$PROJECT_DIR$/04-ReadVideo.py" afterDir="false" />
+    <list default="true" id="a9c360d2-f500-4288-8246-87881a399c89" name="Default Changelist" comment="Video Read using ip camera &amp; external videos">
+      <change afterPath="$PROJECT_DIR$/05-CovertVideoToGray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Video-Properties.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.04-ReadVideo">
+  <component name="RunManager" selected="Python.06-Video-Properties">
     <configuration name="01-ReadImage (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Udemy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,50 +51,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01-ReadImage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="01-ReadImage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Udemy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Hbs_Adithya\Desktop\Day Works\OpenCVTutorial\OpenCvTutorial\01-ReadImage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="02-WriteImage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Udemy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Hbs_Adithya\Desktop\Day Works\OpenCVTutorial\OpenCvTutorial\02-WriteImage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,6 +103,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="05-CovertVideoToGray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Udemy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05-CovertVideoToGray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="06-Video-Properties" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Udemy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06-Video-Properties.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Udemy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.06-Video-Properties" />
+        <item itemvalue="Python.05-CovertVideoToGray" />
         <item itemvalue="Python.04-ReadVideo" />
         <item itemvalue="Python.03-BasicOperatorsInOpenCV" />
         <item itemvalue="Python.01-ReadImage (1)" />
-        <item itemvalue="Python.01-ReadImage" />
-        <item itemvalue="Python.02-WriteImage" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +190,7 @@
       <workItem from="1605932700786" duration="1944000" />
       <workItem from="1605937761769" duration="2679000" />
       <workItem from="1605946188289" duration="2507000" />
-      <workItem from="1605952006027" duration="4598000" />
+      <workItem from="1605952006027" duration="6880000" />
     </task>
     <task id="LOCAL-00001" summary="Image read and Image show">
       <created>1605952641913</created>
@@ -205,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605954235339</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Video Read using ip camera &amp; external videos">
+      <created>1605957689536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605957689536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +221,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Image read and Image show" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image read and Image show" />
+    <MESSAGE value="Video Read using ip camera &amp; external videos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Video Read using ip camera &amp; external videos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605957250015">
@@ -224,31 +233,31 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1828" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605952145661" />
-    <state width="1323" height="141" key="GridCell.Tab.0.bottom" timestamp="1605957547120">
+    <state width="1323" height="141" key="GridCell.Tab.0.bottom" timestamp="1605959845719">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="141" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605957547120" />
-    <state width="1323" height="141" key="GridCell.Tab.0.center" timestamp="1605957547120">
+    <state width="1323" height="141" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605959845719" />
+    <state width="1323" height="141" key="GridCell.Tab.0.center" timestamp="1605959845718">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="141" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605957547120" />
-    <state width="1323" height="141" key="GridCell.Tab.0.left" timestamp="1605957547120">
+    <state width="1323" height="141" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605959845718" />
+    <state width="1323" height="141" key="GridCell.Tab.0.left" timestamp="1605959845718">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="141" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605957547120" />
-    <state width="1323" height="141" key="GridCell.Tab.0.right" timestamp="1605957547120">
+    <state width="1323" height="141" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605959845718" />
+    <state width="1323" height="141" key="GridCell.Tab.0.right" timestamp="1605959845719">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="141" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605957547120" />
+    <state width="1323" height="141" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605959845719" />
     <state x="1550" y="9" key="SettingsEditor" timestamp="1605952331858">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605941490974" />
     <state x="1550" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605952331858" />
-    <state x="1641" y="84" key="Vcs.Push.Dialog.v2" timestamp="1605954242744">
+    <state x="1641" y="84" key="Vcs.Push.Dialog.v2" timestamp="1605957702365">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1641" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605954242744" />
+    <state x="1641" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1605957702365" />
     <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605953553609">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -259,6 +268,8 @@
     <SUITE FILE_PATH="coverage/OpenCvTutorial$03_BasicOperatorsInOpenCV.coverage" NAME="03-BasicOperatorsInOpenCV Coverage Results" MODIFIED="1605953949146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Udemy$WriteImage.coverage" NAME="WriteImage Coverage Results" MODIFIED="1605948613118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCvTutorial$ReadImage.coverage" NAME="ReadImage Coverage Results" MODIFIED="1605952367156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenCvTutorial$06_Video_Properties.coverage" NAME="06-Video-Properties Coverage Results" MODIFIED="1605959845700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenCvTutorial$05_CovertVideoToGray.coverage" NAME="05-CovertVideoToGray Coverage Results" MODIFIED="1605958138935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCvTutorial$01_ReadImage__1_.coverage" NAME="01-ReadImage (1) Coverage Results" MODIFIED="1605953343920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Udemy$main.coverage" NAME="main Coverage Results" MODIFIED="1605933532898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCvTutorial$04_ReadVideo.coverage" NAME="04-ReadVideo Coverage Results" MODIFIED="1605957547100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
